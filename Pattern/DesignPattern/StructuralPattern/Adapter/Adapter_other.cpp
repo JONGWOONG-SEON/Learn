@@ -27,16 +27,9 @@ public:
   }
 };
 
-/*
 void makeWalk(Animal& animal){
     animal.walk();
 }
-*/
-
-void makeWalk(Animal){
-    Animal.walk();
-}
-
 
 int main()
 {
