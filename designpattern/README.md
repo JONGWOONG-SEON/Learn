@@ -56,7 +56,6 @@
 [Head First: Design Patterns]: http://www.headfirstlabs.com/books/hfdp/ 
 [Wikipedia]: https://en.wikipedia.org/wiki/Software_design_pattern
 
-[추상팩토리(Abstract Factory)]: https://github.com/JONGWOONG-SEON/Learn/designattern/CreationalPattern/AbstractFactory
-[어댑터(Adapter)]: https://github.com/JONGWOONG-SEON/Learn/designattern/StructuralPattern/Adapter
-[책임 연쇄(Chain of Responsibility)]: https://github.com/JONGWOONG-SEON/Learn/designattern/BehavioralPattern/ChainofResponsibility
-
+[추상팩토리(Abstract Factory)]: https://github.com/JONGWOONG-SEON/Learn/tree/master/designpattern/CreationalPattern/AbstarctFactory
+[어댑터(Adapter)]: https://github.com/JONGWOONG-SEON/Learn/tree/master/designpattern/StructuralPattern/Adapter
+[책임 연쇄(Chain of Responsibility)]: https://github.com/JONGWOONG-SEON/Learn/tree/master/designpattern/BehavioralPattern/ChainofResponsibility
