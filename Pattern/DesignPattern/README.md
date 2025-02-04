@@ -60,3 +60,5 @@
 [어댑터(Adapter)]: https://github.com/JONGWOONG-SEON/Learn/tree/master/Pattern/DesignPattern/StructuralPattern/Adapter
 [책임 연쇄(Chain of Responsibility)]: https://github.com/JONGWOONG-SEON/Learn/tree/master/Pattern/DesignPattern/BehavioralPattern/ChainofResponsibility
 [빌더(Builder)]: https://github.com/JONGWOONG-SEON/Learn/tree/master/Pattern/DesignPattern/CreationalPattern/Builder
+[브리지(Bridge)]:https://github.com/JONGWOONG-SEON/Learn/tree/master/Pattern/DesignPattern/StructuralPattern/Bridge
+[커맨드(Command)]:https://github.com/JONGWOONG-SEON/Learn/tree/master/Pattern/DesignPattern/BehavioralPattern/Command
