@@ -23,6 +23,5 @@ def sync_server():
         if total_connection == 2:
             server_socket.close()
             break
-        
 
 sync_server()
