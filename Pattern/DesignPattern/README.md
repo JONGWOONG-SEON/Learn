@@ -63,3 +63,4 @@
 [브리지(Bridge)]:https://github.com/JONGWOONG-SEON/Learn/tree/master/Pattern/DesignPattern/StructuralPattern/Bridge
 [커맨드(Command)]:https://github.com/JONGWOONG-SEON/Learn/tree/master/Pattern/DesignPattern/BehavioralPattern/Command
 [인터프리터(Interpreter)]: https://github.com/JONGWOONG-SEON/Learn/tree/master/Pattern/DesignPattern/BehavioralPattern/Interpreter
+[이터레이터(Iterator)]:https://github.com/JONGWOONG-SEON/Learn/tree/master/Pattern/DesignPattern/BehavioralPattern/Iterator
