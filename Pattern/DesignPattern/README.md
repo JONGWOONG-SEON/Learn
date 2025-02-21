@@ -26,7 +26,7 @@
 - **[브리지(Bridge)]**: 객체의 구현을 분리  
 - **[컴포지트(Composite)]**: 객체의 구조 및 구성  
 - **[데코레이터(Decorator)]**: 서브클래싱 없이 객체의 기능 확장  
-- **[퍼사드(Façade)]**: 서브시스템에 대한 단순한 인터페이스 제공  
+- **[퍼사드(Facade)]**: 서브시스템에 대한 단순한 인터페이스 제공  
 - **[플라이웨이트(Flyweight)]**: 객체의 저장 비용 절감  
 - **[프록시(Proxy)]**: 객체의 접근 및 위치 관리  
 
@@ -64,3 +64,4 @@
 [커맨드(Command)]:https://github.com/JONGWOONG-SEON/Learn/tree/master/Pattern/DesignPattern/BehavioralPattern/Command
 [인터프리터(Interpreter)]: https://github.com/JONGWOONG-SEON/Learn/tree/master/Pattern/DesignPattern/BehavioralPattern/Interpreter
 [이터레이터(Iterator)]:https://github.com/JONGWOONG-SEON/Learn/tree/master/Pattern/DesignPattern/BehavioralPattern/Iterator
+[퍼사드(Facade)]:https://github.com/JONGWOONG-SEON/Learn/tree/master/Pattern/DesignPattern/StructuralPattern/Facade
