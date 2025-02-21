@@ -1,4 +1,4 @@
-"""
+
 import csv
 import openpyxl
 
@@ -14,7 +14,8 @@ class ExcelIterator:
 
     def __next__(self):
         try:
-            return next(self.rows)  # 다음 행 반환
+            row = next(self.rows)  # 다음 행 가져오기
+            return tuple(str(cell) if cell is not None else "" for cell in row)  # 모든 값을 str 변환
         except StopIteration:
             self.wb.close()
             raise
@@ -32,15 +33,15 @@ class DataExporter:
             writer = csv.writer(file)
             
             for row in iterator:  # 반복자를 통해 데이터 순회
-                writer.writerow(row)
+                writer.writerow([f'`{cell}' if cell.isdigit() and len(cell) > 11 else cell for cell in row])
+
 
 # 사용 예시
-source_file = ""
-target_csv = ""
+source_file = "/Users/sun/Desktop/Mirror/TIL/Pattern/DesignPattern/BehavioralPattern/Iterator/TestFolder/test.xlsx"
+target_csv = "/Users/sun/Desktop/Mirror/TIL/Pattern/DesignPattern/BehavioralPattern/Iterator/test.csv"
 
 exporter = DataExporter(source_file, target_csv)
 exporter.append_to_csv()
-"""
 
 
 

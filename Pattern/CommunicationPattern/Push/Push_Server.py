@@ -5,7 +5,7 @@ import threading
 class Spec:
     def __init__(self):
         self.ip = "127.0.0.1"
-        self.port = 4444
+        self.port = 4445
         self.clients = [] # 공유 변수
 
 class Push(Spec):
@@ -36,7 +36,7 @@ class Push_Handler:
 
     def push_by_server(self, clients):
         """서버에서 클라이언트에게 자동으로 푸시 메시지를 전송"""
-        message = "[Push] \n 서버에서 자동으로 전송하는 메시지"
+        message = "[Push] 서버에서 자동으로 전송하는 메시지"
         print(f"전송: {message}")
         
         # 전달받은 clients 리스트 사용
@@ -46,7 +46,7 @@ class Push_Handler:
             except:
                 clients.remove(client)  # 연결이 끊긴 클라이언트 제거
 
-if __name__ == "__main__":
+def main():
     handler = Push_Handler()
     server = Push(handler)
     server.server_run()

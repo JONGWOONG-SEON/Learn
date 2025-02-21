@@ -2,7 +2,7 @@ import sys
 
 class Aggreate:
     def __init__(self):
-        self.list=[]
+        self._list=[]
     
     def __iter__(self):
         return Iterator(self._list)

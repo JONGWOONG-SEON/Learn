@@ -2,7 +2,7 @@ import socket
 
 def push_client_start():
     trigger_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    trigger_socket.bind(("127.0.0.1", 4445))
+    trigger_socket.bind(("127.0.0.1", 4446))
     trigger_socket.connect(("127.0.0.1",4444))
     return trigger_socket
 
