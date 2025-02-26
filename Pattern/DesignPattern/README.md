@@ -65,3 +65,4 @@
 [인터프리터(Interpreter)]: https://github.com/JONGWOONG-SEON/Learn/tree/master/Pattern/DesignPattern/BehavioralPattern/Interpreter
 [이터레이터(Iterator)]:https://github.com/JONGWOONG-SEON/Learn/tree/master/Pattern/DesignPattern/BehavioralPattern/Iterator
 [퍼사드(Facade)]:https://github.com/JONGWOONG-SEON/Learn/tree/master/Pattern/DesignPattern/StructuralPattern/Facade
+[상태(State)]:https://github.com/JONGWOONG-SEON/Learn/tree/master/Pattern/DesignPattern/BehavioralPattern/State
